@@ -1,0 +1,21 @@
+.container {
+  max-width: 1660px;
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: EuclidFlex;
+  font-display: swap;
+  src: url("../fonts/EuclidFlex-Bold.woff2") format("woff2"), url("../fonts/EuclidFlex-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: EuclidFlex;
+  font-display: swap;
+  src: url("../fonts/EuclidFlex-Italic.woff2") format("woff2"), url("../fonts/EuclidFlex-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
