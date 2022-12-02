@@ -4,22 +4,427 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20221202142226">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&_v=20221202142226" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221202142226">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221202142226" defer></script>
-    <title>WOMAZING</title>
+    <link rel="stylesheet" href="css/style.min.css?_v=20221202215122">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&_v=20221202215122" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221202215122">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css?_v=20221202215122"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css?_v=20221202215122"/>
 </head>
     <body>
-        <header>
-
+        <header class="header">
+    <div class="container">
+        <nav class="navbar">
+            <a class="logo" href="#">
+                <img class="svg-logo-dims" src="img/icons/icons.svg#logo" alt="logo">
+                <p class="logo__text">
+                    WOMAZING
+                </p>
+            </a>
+            <div class="navbar__menu">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link">Главная</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="shop.html" class="menu-item-link">Магазин</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html" class="menu-item-link">О бренде</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contacts.html" class="menu-item-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__buttons">
+                <a href="tel:74958235412" class="navbar__phone">
+                    <img src="img/icons/icons.svg#phone" alt="phone" class="svg-phone-dims">
+                    <span>+7 (495) 823-54-12</span>
+                </a>
+                <a href="basket.html" class="navbar__basket">
+                    <img src="img/icons/icons.svg#basket" alt="basket" class="svg-basket-dims">
+                </a>
+            </div>
+        </nav>
+    </div>
 </header>
+        <section class="section__hero">
+    <div class="container">
+        <div class="hero">
+            <!-- <div class="slider-nav">
+                <div>
+                    <div class="hero__slide">
+                        <h1 class="hero__title title">
+                            Включай новый сезон с WOMAZING
+                        </h1>
+                        <h2 class="hero__subtitle subtitle">
+                            Мы обновили ассортимент - легендарные коллекции и новинки от отечественных дизайнеров
+                        </h2>
+                        <div class="hero__btns">
+                            <a href="#collection" class="hero__btn-arrow ">
+                                <svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 0V28M8 28L1 20.8108M8 28L15 20.8108" stroke="#6E9C9F"/>
+                                </svg>
+                            </a>
+                            <a href="shop.html" class="hero__btn btn">Открыть магазин</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="hero__slide">
+                        <h1 class="hero__title title">
+                            Что-то новенькое. Мы заждались тебя.
+                        </h1>
+                        <h2 class="hero__subtitle subtitle">
+                            Надоело искать себя в сером городе? Настало время новых идей, свежих красок и вдохновения с Womazing!
+                        </h2>
+                        <div class="hero__btns">
+                            <a href="#collection" class="hero__btn-arrow ">
+                                <svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 0V28M8 28L1 20.8108M8 28L15 20.8108" stroke="#6E9C9F"/>
+                                </svg>
+                            </a>
+                            <a href="shop.html" class="hero__btn btn">Открыть магазин</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="hero__slide">
+                        <h1 class="hero__title title">
+                            Новые поступления
+                            в этом сезоне
+                        </h1>
+                        <h2 class="hero__subtitle subtitle">
+                            Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать.
+                        </h2>
+                        <div class="hero__btns">
+                            <a href="#collection" class="hero__btn-arrow ">
+                                <svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 0V28M8 28L1 20.8108M8 28L15 20.8108" stroke="#6E9C9F"/>
+                                </svg>
+                            </a>
+                            <a href="shop.html" class="hero__btn btn">Открыть магазин</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-for">
+                <div>
+                    <picture><source srcset="img/hero_slide.webp" type="image/webp"><img src="img/hero_slide.jpg" alt="slide"></picture>
+                </div>
+                <div>
+                    <picture><source srcset="img/hero_slide.webp" type="image/webp"><img src="img/hero_slide.jpg" alt="slide"></picture>
+                </div>
+                <div>
+                    <picture><source srcset="img/hero_slide.webp" type="image/webp"><img src="img/hero_slide.jpg" alt="slide"></picture>
+                </div>
+            </div> -->
+            <div class="hero__wrapper-text">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="hero__slide">
+                                <h1 class="hero__title title">
+                                    Включай новый сезон с WOMAZING
+                                </h1>
+                                <h2 class="hero__subtitle subtitle">
+                                    Мы обновили ассортимент - легендарные коллекции и новинки от отечественных дизайнеров
+                                </h2>
+                                <div class="hero__btns">
+                                    <a href="#collection" class="hero__btn-arrow ">
+                                        <svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0V28M8 28L1 20.8108M8 28L15 20.8108" stroke="#6E9C9F"/>
+                                        </svg>
+                                    </a>
+                                    <a href="shop.html" class="hero__btn btn">Открыть магазин</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero__slide">
+                                <h1 class="hero__title title">
+                                    Что-то новенькое. Мы заждались тебя.
+                                </h1>
+                                <h2 class="hero__subtitle subtitle">
+                                    Надоело искать себя в сером городе? Настало время новых идей, свежих красок и вдохновения с Womazing!
+                                </h2>
+                                <div class="hero__btns">
+                                    <a href="#collection" class="hero__btn-arrow ">
+                                        <svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0V28M8 28L1 20.8108M8 28L15 20.8108" stroke="#6E9C9F"/>
+                                        </svg>
+                                    </a>
+                                    <a href="shop.html" class="hero__btn btn">Открыть магазин</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero__slide">
+                                <h1 class="hero__title title">
+                                    Новые поступления
+                                    в этом сезоне
+                                </h1>
+                                <h2 class="hero__subtitle subtitle">
+                                    Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне. Время исследовать.
+                                </h2>
+                                <div class="hero__btns">
+                                    <a href="#collection" class="hero__btn-arrow ">
+                                        <svg width="16" height="29" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0V28M8 28L1 20.8108M8 28L15 20.8108" stroke="#6E9C9F"/>
+                                        </svg>
+                                    </a>
+                                    <a href="shop.html" class="hero__btn btn">Открыть магазин</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="hero__wrapper-images">
+                <div class="swiper swiper-2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture><source srcset="img/hero_slide.webp" type="image/webp"><img src="img/hero_slide.jpg" alt="slide"></picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture><source srcset="img/hero_slide.webp" type="image/webp"><img src="img/hero_slide.jpg" alt="slide"></picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture><source srcset="img/hero_slide.webp" type="image/webp"><img src="img/hero_slide.jpg" alt="slide"></picture>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="section__collection" id="collection">
+    <div class="container">
+        <div class="collection">
+            <h4 class="collection__title title">
+                Новая коллекция
+            </h4>
+            <div class="collection__content">
+                <div class="collection__cards">
+                    <a class="collection__card" href="shop.html">
+                        <div class="collection__overlay">
+                            <div class="collection__card-img">
+                                <picture><source srcset="img/card2.webp" type="image/webp"><img src="img/card2.jpg" alt="card"></picture>
+                            </div>
+                            <div class="collection__text-wrap">
+                                <p class="collection__card-title card-title">
+                                    Купальник Glow
+                                </p>
+                                <span class="collection__card-price card-price">
+                                    <span class="card-price-line"></span> $129
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="collection__card" href="shop.html">
+                        <div class="collection__overlay">
+                            <div class="collection__card-img">
+                                <picture><source srcset="img/card1.webp" type="image/webp"><img src="img/card1.jpg" alt="card"></picture>
+                            </div>
+                            <div class="collection__text-wrap">
+                                <p class="collection__card-title card-title">
+                                    Футболка USA
+                                </p>
+                                <span class="collection__card-price card-price">
+                                    <span class="card-price-line">$229</span> $129
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="collection__card" href="shop.html">
+                        <div class="collection__overlay">
+                            <div class="collection__card-img">
+                                <picture><source srcset="img/card3.webp" type="image/webp"><img src="img/card3.jpg" alt="card"></picture>
+                            </div>
+                            <div class="collection__text-wrap">
+                                <p class="collection__card-title card-title">
+                                    Свитшот Sweet Shot
+                                </p>
+                                <span class="collection__card-price card-price">
+                                    <span class="card-price-line"></span> $129
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <a href="shop.html" class="collection__btn btn">
+                    Открыть магазин
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="section__presentation">
+    <div class="container">
+        <div class="presentation">
+            <h4 class="presentation__title title">
+                Что для нас важно
+            </h4>
+            <div class="presentation__cards">
+                <div class="presentation__card">
+                    <div class="svg-check-dims presentation__card-img">
+                        <img src="img/icons/icons.svg#check" alt="check">
+                    </div>
+                    <p class="presentation__card-title">
+                        Качество
+                    </p>
+                    <p class="presentation__card-text">
+                        Наши профессионалы работают на лучшем оборудовании для пошива одежды беспрецедентного качества
+                    </p>
+                </div>
+                <div class="presentation__card">
+                    <div class="svg-gear-dims presentation__card-img">
+                        <img src="img/icons/icons.svg#gear" alt="check" class="svg-gear-dims">
+                    </div>
+                    <p class="presentation__card-title">
+                        Скорость
+                    </p>
+                    <p class="presentation__card-text">
+                        Благодаря отлаженной системе в Womazing мы можем отшивать до 20-ти единиц продукции в наших собственных цехах
+                    </p>
+                </div>
+                <div class="presentation__card">
+                    <div class="svg-hand-dims presentation__card-img">
+                        <img src="img/icons/icons.svg#hand" alt="check" class="svg-hand-dims">
+                    </div>
+                    <p class="presentation__card-title">
+                        Ответственность
+                    </p>
+                    <p class="presentation__card-text">
+                        Мы заботимся о людях и планете. Безотходное производство и комфортные условия труда - все это Womazing
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="section__team">
+    <div class="container">
+        <div class="team">
+            <h4 class="team__title title">
+                Команда мечты Womazing
+            </h4>
+            <div class="team__slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture><source srcset="img/team.webp" type="image/webp"><img src="img/team.jpg" alt="team"></picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture><source srcset="img/team.webp" type="image/webp"><img src="img/team.jpg" alt="team"></picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture><source srcset="img/team.webp" type="image/webp"><img src="img/team.jpg" alt="team"></picture>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="team__text-wrap">
+                    <p class="team__slider-title">
+                        Для каждой
+                    </p>
+                    <p class="team__slider-text">
+                        Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.
+                    </p>
+                    <p class="team__slider-text">
+                        Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.
+                    </p>
+                    <a href="about.html" class="team__slider-more">
+                        Подробнее о бренде
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <main>
             
         </main>
-        <footer>
-    
+        <footer class="footer">
+    <div class="container">
+        <nav class="navbar">
+            <a class="logo" href="#">
+                <img class="svg-logo-dims" src="img/icons/icons.svg#logo" alt="logo">
+                <p class="logo__text">
+                    WOMAZING
+                </p>
+            </a>
+            <div class="navbar__menu">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link">Главная</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="shop.html" class="menu-item-link">Магазин</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html" class="menu-item-link">О бренде</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contacts.html" class="menu-item-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__buttons footer__buttons-links">
+                <a href="tel:74958235412" class="navbar__phone">
+                    <span>+7 (495) 823-54-12</span>
+                    <a href="mailto:hello@womazing.com" class="footer__social-link email">
+                        hello@womazing.com
+                    </a>
+                </a>
+            </div>
+        </nav>
+        <div class="footer__info">
+            <div class="footer__copy">
+                © Все права защищены <br>
+                Политика конфиденциальности <br>
+                Публичная оферта
+            </div>
+            <ul class="footer__items">
+                <li class="footer__item">
+                    <a href="#" class="footer__item-link">Пальто</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__item-link">Свитшоты</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__item-link">Кардиганы</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__item-link">Толстовки</a>
+                </li>
+            </ul>
+            <div class="footer__social">
+                <div class="footer__social-networks">
+                    <a class="footer__social-network" href="#">
+                        <img src="img/icons/icons.svg#instagram" alt="instagram">
+                    </a>
+                    <a class="footer__social-network" href="#">
+                        <img src="img/icons/icons.svg#facebook" alt="facebook">
+                    </a>
+                    <a class="footer__social-network" href="#">
+                        <img src="img/icons/icons.svg#twitter" alt="twitter">
+                    </a>
+                </div>
+                <a class="footer__cards" href="#">
+                    <picture><source srcset="img/visa.webp" type="image/webp"><img src="img/visa.png" alt="visa, mastercard"></picture>
+                </a>
+            </div>
+        </div>
+    </div>
 </footer>
-        <script src="js/app.min.js?_v=20221202142226"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20221202215122"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js?_v=20221202215122"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js?_v=20221202215122"></script>
+        <script type="text/javascript" src="slick/slick.min.js?_v=20221202215122"></script>
+        <script src="js/app.min.js?_v=20221202215122"></script>
     </body>
 </html>
