@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221203175630">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&_v=20221203175630" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20221203175630">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css?_v=20221203175630"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css?_v=20221203175630"/>
+</head>
+    <body>
+        <header class="header">
+    <div class="container">
+        <nav class="navbar">
+            <a class="logo" href="#">
+                <img class="svg-logo-dims" src="img/icons/icons.svg#logo" alt="logo">
+                <p class="logo__text">
+                    WOMAZING
+                </p>
+            </a>
+            <div class="navbar__menu">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link">Главная</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="shop.html" class="menu-item-link">Магазин</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html" class="menu-item-link">О бренде</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contacts.html" class="menu-item-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__buttons">
+                <a href="#callback" class="navbar__phone">
+                    <section class="section__callback">
+                        <span class="close"></span>
+                        <div class="callback__wrapper">
+                            <form action="" class="callback" type="POST">
+                                <p class="callback__title">
+                                    Заказать обратный звонок
+                                </p>
+                                <input type="text" class="callback__item" name="name" placeholder="Имя">
+                                <input type="email" class="callback__item" name="email" placeholder="E-mail">
+                                <input type="tel" class="callback__item" name="phone" placeholder="Телефон">
+                                <button class="callback__btn btn">Заказать звонок</button>
+                            </form>
+                        </div>
+                    </section>
+                    <img src="img/icons/icons.svg#phone" alt="phone" class="svg-phone-dims">
+                    <span>+7 (495) 823-54-12</span>
+                </a>
+                <a href="basket.html" class="navbar__basket">
+                    <img src="img/icons/icons.svg#basket" alt="basket" class="svg-basket-dims">
+                </a>
+            </div>
+        </nav>
+    </div>
+</header>
+        <main class="shop">
+            <section class="section__collection section__card" id="collection">
+                <div class="container">
+                    <div class="collection shop">
+                        <div class="shop__title-wrap">
+                            <h4 class="collection__title title shop__title">
+                                Магазин
+                            </h4>
+                            <div class="shop__breadcrumbs">
+                                <a class="shop__breadcrumbs-item" href="index.html">
+                                    Главная
+                                </a>
+                                <a class="shop__breadcrumbs-item breadcrumb--active" href="">
+                                    Магазин
+                                </a>
+                            </div>
+                        </div>
+                        <div class="shop__categories">
+                            <a href="" class="shop__categories-btn shop__categories-btn--active btn">
+                                Все
+                            </a>
+                            <a href="" class="shop__categories-btn btn">
+                                Пальто
+                            </a>
+                            <a href="" class="shop__categories-btn btn">
+                                Свитшоты
+                            </a>
+                            <a href="" class="shop__categories-btn btn">
+                                Кардиганы
+                            </a>
+                            <a href="" class="shop__categories-btn btn">
+                                Толстовки
+                            </a>
+                        </div>
+                        <div class="collection__content shop__content">
+                            <div class="collection__cards shop__cards">
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card2.webp" type="image/webp"><img src="img/card2.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Купальник Glow
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line"></span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card1.webp" type="image/webp"><img src="img/card1.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Футболка USA
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line">$229</span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card3.webp" type="image/webp"><img src="img/card3.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Свитшот Sweet Shot
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line"></span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card2.webp" type="image/webp"><img src="img/card2.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Купальник Glow
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line"></span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card1.webp" type="image/webp"><img src="img/card1.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Футболка USA
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line">$229</span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card3.webp" type="image/webp"><img src="img/card3.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Свитшот Sweet Shot
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line"></span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card2.webp" type="image/webp"><img src="img/card2.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Купальник Glow
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line"></span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card1.webp" type="image/webp"><img src="img/card1.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Футболка USA
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line">$229</span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card3.webp" type="image/webp"><img src="img/card3.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Свитшот Sweet Shot
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line"></span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card2.webp" type="image/webp"><img src="img/card2.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Купальник Glow
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line"></span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card1.webp" type="image/webp"><img src="img/card1.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Футболка USA
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line">$229</span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="collection__card shop__card" href="shop.html">
+                                    <div class="collection__overlay">
+                                        <div class="collection__card-img">
+                                            <picture><source srcset="img/card3.webp" type="image/webp"><img src="img/card3.jpg" alt="card"></picture>
+                                        </div>
+                                        <div class="collection__text-wrap">
+                                            <p class="collection__card-title card-title">
+                                                Свитшот Sweet Shot
+                                            </p>
+                                            <span class="collection__card-price card-price">
+                                                <span class="card-price-line"></span> $129
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="shop__card-btns">
+                                <a href="" class="btn shop__card-btn shop__card-btn--active">
+                                    1
+                                </a>
+                                <a href="" class="btn shop__card-btn">
+                                    2
+                                </a>
+                                <a href="" class="btn shop__card-btn">
+                                    <img src="img/icons/icons.svg#arrow" alt="arrow">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="container">
+        <nav class="navbar">
+            <a class="logo" href="#">
+                <img class="svg-logo-dims" src="img/icons/icons.svg#logo" alt="logo">
+                <p class="logo__text">
+                    WOMAZING
+                </p>
+            </a>
+            <div class="navbar__menu">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link">Главная</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="shop.html" class="menu-item-link">Магазин</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html" class="menu-item-link">О бренде</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contacts.html" class="menu-item-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__buttons footer__buttons-links">
+                <a href="tel:74958235412" class="navbar__phone">
+                    <span>+7 (495) 823-54-12</span>
+                    <a href="mailto:hello@womazing.com" class="footer__social-link email">
+                        hello@womazing.com
+                    </a>
+                </a>
+            </div>
+        </nav>
+        <div class="footer__info">
+            <div class="footer__copy">
+                © Все права защищены <br>
+                Политика конфиденциальности <br>
+                Публичная оферта
+            </div>
+            <ul class="footer__items">
+                <li class="footer__item">
+                    <a href="#" class="footer__item-link">Пальто</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__item-link">Свитшоты</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__item-link">Кардиганы</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__item-link">Толстовки</a>
+                </li>
+            </ul>
+            <div class="footer__social">
+                <div class="footer__social-networks">
+                    <a class="footer__social-network" href="#">
+                        <img src="img/icons/icons.svg#instagram" alt="instagram">
+                    </a>
+                    <a class="footer__social-network" href="#">
+                        <img src="img/icons/icons.svg#facebook" alt="facebook">
+                    </a>
+                    <a class="footer__social-network" href="#">
+                        <img src="img/icons/icons.svg#twitter" alt="twitter">
+                    </a>
+                </div>
+                <a class="footer__cards" href="#">
+                    <picture><source srcset="img/visa.webp" type="image/webp"><img src="img/visa.png" alt="visa, mastercard"></picture>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js?_v=20221203175630"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js?_v=20221203175630"></script>
+        <script src="js/app.min.js?_v=20221203175630"></script>
+    </body>
+</html>
